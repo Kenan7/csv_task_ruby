@@ -1,32 +1,39 @@
-# README
+# Teamtailor task
 
-## Tests
+Dashboard
+
+![dashboard](https://imgur.com/A8jQAYG.png)
+
+Main logic
+
+![main_logic](https://imgur.com/9vtgQsd.png)
+
+Data
+![data](https://imgur.com/TX57WgM.png)
 
 ## Environment Variables
 
 Change the following environment variables in the `.env` file:
 
 * 'TEAMTAILOR_API_KEY' - put your own API key
+* 'TEAMTAILOR_X_API_VERSION' - define the API version
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Usage
 
-Things you may want to cover:
+Just run docker and go to [localhost:3000](http://127.0.0.1:3000)
 
-* Ruby version
+```bash
+docker-compose up
+```
 
-* System dependencies
+No Docker? Oh well, get your Ruby and run:
 
-* Configuration
+```bash
+bundle install
+rails s
+```
 
-* Database creation
+---
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<!-- ![meme](https://i.imgflip.com/7e43o9.jpg) -->
+<img src="https://i.imgflip.com/7e43o9.jpg"  width="30%" height="20%">

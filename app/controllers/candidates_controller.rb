@@ -1,10 +1,4 @@
 class CandidatesController < ApplicationController
-
-  # TODO Write a test for request method and see if record counts match
-  require 'csv'
-  require 'net/http'
-  require 'json'
-
   include CandidatesHelper
   include CsvHelper
 

@@ -1,5 +1,6 @@
 module CsvHelper
     require 'csv'
+    include ActionController::DataStreaming
 
     def download_csv_file(csv_data)
         send_data csv_data, type: 'text/csv', filename: 'candidates.csv'
